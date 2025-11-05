@@ -793,7 +793,8 @@ class Menu {
     ];
     this.urls = {
       "第一單元作品": "https://1baoguai0-0711.github.io/20251020/",
-      "第一單元講義": "https://hackmd.io/@9bxRGkqSTtm3MxsO-5tSeA/ryPgPQ0slx"
+      "第一單元講義": "https://hackmd.io/@9bxRGkqSTtm3MxsO-5tSeA/ryPgPQ0slx",
+      "測驗系統": "https://1baoguai0-0711.github.io/20251103/"
     };
     
     this.setupClickHandler();
@@ -813,6 +814,11 @@ class Menu {
         // 檢查第二個選項
         if (e.clientX < 200 && mouseY > firstItemY + 40 && mouseY < firstItemY + 80) {
           this.showIframe(this.urls["第一單元講義"]);
+        }
+        
+        // 檢查第三個選項
+        if (e.clientX < 200 && mouseY > firstItemY + 100 && mouseY < firstItemY + 140) {
+          this.showIframe(this.urls["測驗系統"]);
         }
       }
     });
