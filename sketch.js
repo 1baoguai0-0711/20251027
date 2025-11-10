@@ -1,7 +1,7 @@
 /*
 By Okazz
 */
-let palette = ['#ff4d00', '#2abde4', '#fdb50e', '#2864b8', '#EAEDF1'];
+let palette = ['#03045e', '#0077b6', '#00b4d8', '#90e0ef', '#caf0f8'];
 let ctx;
 let centerX, centerY;
 let motions = [];
